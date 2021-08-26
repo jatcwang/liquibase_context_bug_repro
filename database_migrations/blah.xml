@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd"
+  
+>
+<changeSet  author="lb-generated"  id="1185214997195-1">  
+    <createTable  tableName="BONUS">  
+        <column  name="NAME"  type="VARCHAR2(15)"/>  
+        <column  name="JOB"  type="VARCHAR2(255)"/>  
+        <column  name="SAL"  type="NUMBER(255)"/>
+    </createTable>  
+</changeSet>
+</databaseChangeLog>
